@@ -19,6 +19,7 @@ Timer5	KEYWORD1
 #######################################
 ISR	KEYWORD2
 
+ready	KEYWORD2
 setPeriod	KEYWORD2
 setFrequency	KEYWORD2
 setFrequencyFloat	KEYWORD2

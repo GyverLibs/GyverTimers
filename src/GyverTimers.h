@@ -29,6 +29,7 @@
     v1.7 - поправлена документация
     v1.8 - исправлен баг с макс периодом
     v1.9 - исправлен баг с возвращаемым 2х периодом
+    v1.10 - добавлен флаг ready 
 */
 
 /*
@@ -135,6 +136,9 @@ public:
     uint32_t setFrequency(uint32_t _timer0_frequency);    // Set timer frequency [Hz]
     float setFrequencyFloat(float _timer0_frequency);  	  // Set timer float frequency [Hz]
     
+	GYVERTIMERS_INLINE
+	bool ready(uint8_t channel = CHANNEL_A);			  // Return true, is interrupt is ready, but not enabled
+	
     GYVERTIMERS_INLINE
     void enableISR(uint8_t source = CHANNEL_A);           // Enable timer interrupt , channel A or B 
     
@@ -178,6 +182,9 @@ public:
     uint32_t setFrequency(uint32_t _timer1_frequency);    // Set timer frequency [Hz]
     float setFrequencyFloat(float _timer1_frequency);     // Set timer float frequency [Hz]
     
+	GYVERTIMERS_INLINE
+	bool ready(uint8_t channel = CHANNEL_A);			  // Return true, is interrupt is ready, but not enabled	
+	
     GYVERTIMERS_INLINE
     void enableISR(uint8_t source = CHANNEL_A);       	  // Enable timer interrupt , channel A or B 
     
@@ -221,6 +228,9 @@ public:
     uint32_t setFrequency(uint32_t _timer2_frequency);    // Set timer frequency [Hz]
     float setFrequencyFloat(float _timer2_frequency);     // Set timer float frequency [Hz]
     
+	GYVERTIMERS_INLINE
+	bool ready(uint8_t channel = CHANNEL_A);			  // Return true, is interrupt is ready, but not enabled
+	
     GYVERTIMERS_INLINE
     void enableISR(uint8_t source = CHANNEL_A);      	  // Enable timer interrupt , channel A or B 
     
@@ -265,6 +275,9 @@ public:
     uint32_t setFrequency(uint32_t _timer3_frequency);    // Set timer frequency [Hz]
     float setFrequencyFloat(float _timer3_frequency);     // Set timer float frequency [Hz]
     
+	GYVERTIMERS_INLINE
+	bool ready(uint8_t channel = CHANNEL_A);			  // Return true, is interrupt is ready, but not enabled
+	
     GYVERTIMERS_INLINE
     void enableISR(uint8_t source = CHANNEL_A);       	  // Enable timer interrupt , channel A or B
     
@@ -308,6 +321,9 @@ public:
     uint32_t setFrequency(uint32_t _timer4_frequency);    // Set timer frequency [Hz]
     float setFrequencyFloat(float _timer4_frequency);     // Set timer float frequency [Hz]
     
+	GYVERTIMERS_INLINE
+	bool ready(uint8_t channel = CHANNEL_A);			  // Return true, is interrupt is ready, but not enabled
+	
     GYVERTIMERS_INLINE
     void enableISR(uint8_t source = CHANNEL_A);       	  // Enable timer interrupt , channel A or B
     
@@ -351,6 +367,9 @@ public:
     uint32_t setFrequency(uint32_t _timer5_frequency);    // Set timer frequency [Hz]
     float setFrequencyFloat(float _timer5_frequency);     // Set timer float frequency [Hz]
     
+	GYVERTIMERS_INLINE
+	bool ready(uint8_t channel = CHANNEL_A);			  // Return true, is interrupt is ready, but not enabled
+	
     GYVERTIMERS_INLINE
     void enableISR(uint8_t source = CHANNEL_A);       	  // Enable timer interrupt , channel A or B
     
