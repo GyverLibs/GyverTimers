@@ -1,3 +1,5 @@
+This is an automatic translation, may be incorrect in some places. See sources and examples!
+
 # GyverTimers
 ATmega328p, ATmega2560 hardware timer interrupt setup and control
 - All three timers on ATmega328 and six timers on ATmega2560 are supported;
