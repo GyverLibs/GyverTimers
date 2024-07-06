@@ -35,10 +35,10 @@ There is [extended documentation](https://alexgyver.ru/gyvertimers/) to the libr
     - Arduino ide v2
     - Platformio
 - [download the library](https://github.com/gyverlibs/gyvertimers/archive/refs/heads/main.zip) .Zip archive for manual installation:
-    - unpack and put in * C: \ Program Files (X86) \ Arduino \ Libraries * (Windows X64)
-    - unpack and put in * C: \ Program Files \ Arduino \ Libraries * (Windows X32)
-    - unpack and put in *documents/arduino/libraries/ *
-    - (Arduino id) Automatic installation from. Zip: * sketch/connect the library/add .Zip library ... * and specify downloaded archive
+    - unpack and put in *C:\Program Files (X86)\Arduino\Libraries* (Windows X64)
+    - unpack and put in *C:\Program Files\Arduino\Libraries* (Windows X32)
+    - unpack and put in *documents/arduino/libraries/* (Mac)
+    - (Arduino IDE) Automatic installation from ZIP: *Sketch > Include library > Add .ZIP library...* and specify downloaded archive
 - Read more detailed instructions for installing libraries [here](https://alexgyver.ru/arduino-first/#%D0%A3%D1%81%D1%82%D0%B0%BD%D0%BE%BE%BE%BED0%B2%D0%BA%D0%B0_%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA)
 ### Update
 - I recommend always updating the library: errors and bugs are corrected in the new versions, as well as optimization and new features are added
